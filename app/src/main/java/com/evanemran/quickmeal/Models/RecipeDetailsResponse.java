@@ -15,7 +15,7 @@ public class RecipeDetailsResponse {
     public String gaps;
     public boolean lowFodmap;
     public int aggregateLikes;
-    public int spoonacularScore;
+    public float spoonacularScore;
     public int healthScore;
     public String creditsText;
     public String license;

@@ -15,7 +15,7 @@ public class RandomRecipe {
     public String gaps;
     public boolean lowFodmap;
     public int aggregateLikes;
-    public int spoonacularScore;
+    public float spoonacularScore;
     public int healthScore;
     public String creditsText;
     public String license;
@@ -87,7 +87,7 @@ public class RandomRecipe {
         return aggregateLikes;
     }
 
-    public int getSpoonacularScore() {
+    public float getSpoonacularScore() {
         return spoonacularScore;
     }
 
